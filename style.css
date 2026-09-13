@@ -228,3 +228,42 @@ footer{
     font-family: var(--fonte0);
     padding: 5px;
 }
+
+@media (max-width: 600px) {
+
+    /* Título principal */
+    header h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* Subtítulo */
+    header p {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    /* Menu */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    /* Títulos das matérias */
+    article h1 {
+        font-size: 32px;
+        padding: 0 15px;
+    }
+
+    /* Texto */
+    article p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+}
